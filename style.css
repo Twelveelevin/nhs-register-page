@@ -2,46 +2,61 @@
 body{
     height:100%;
 }
-
-
-
-
-
 .main{
-    height:600px;
-    width: 300px;
-    background-color:white;
+    height: 90vh;
+    width: 400px;
     color: blue;
+    padding: 15px;
+    margin: 0 auto;
+    background-color:white;
     border: 5px solid blue;
     border-radius: 25px;
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%, -50%);
-    
 }
-
 .mini-screen{
-    height:450px;
-    width:250px; 
-    background-color:rgb(216, 212, 212);   
-    position:relative;
-    left:50%;
-    top:45%; 
-    transform: translate(-50%, -50%);
-    
+    width: 100%;
+    height: 80%;
+    background-color:rgb(216, 212, 212);  
 
 }
-
+.font-links ul {
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.font-links ul li{
+    list-style: none;
+}
+.font-links ul li i{
+    
+}
+.title-header{
+    padding: 10px;
+    margin-top: 20px;
+}
+.title-header h1,
+.title-header h2,
+.title-header h5{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.title-header h2{
+    font-size: 18px;
+    margin: 10px 0px;
+}
 .nhs{
     font-family:san sans-serif;
-    position:relative;
+    /* position: relative; */
     top: 50px;
     text-align:center;
     font-size:25px;
 
 }
-
+.nhs h1{
+    padding: 0px;
+    margin: 0px;
+}
 .family{
     margin-top:60px;
     text-align:center;
@@ -59,87 +74,40 @@ body{
     text-align:center;
     
 }
-
-input{
+.form-group{
+    margin: 10px 0px;
+}
+.form-group input{
     width:80%;
+    padding: 10px 5px;
+    border: 1px solid transparent;
 }
-
-
-.sub-menu ul{
-    display: inline-flex;
-    list-style:none;
-   
-
+.form-group input:focus{
+    outline: none;
+    border: none;
+    border: 1px solid rgb(68, 68, 232);
 }
-
-.sub-menu ul li{
-    position:relative;
-    padding:5px;
-    margin: auto 15px auto 15px;
-    
+.bottom-icon-btn{
+    text-align: center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.sub-menu ul li a{
-    text-decoration:none;
-    color:blue;
-    font-size:14px;
+.bottom-icon-btn i{
+    color: #fff;
+    font-size: 22px;
+    padding: 20px 20px;
+    border-radius: 200px;
+    background-color: #333;
 }
-
-.sub-menu ul li a:hover{
-    color:white;
-
+@media only screen and (max-width: 567px){
+    .main{
+        width: 80%;
+    }
 }
-.login-button{
-    position:absolute;
-    top:73%;
-    left:35%;
-    width:70px;
-    height:30px;
-    background-color:blue;
-    color:white;
-    border:1px solid blue;
-    border-radius:5%;
-}
-.login-button:hover{
-    background-color:white;
-    color:blue;
-
-}
-    
-.signin-button{
-    position:absolute;
-    top:87%;
-    right:65%;
-    width:70px;
-    height:30px;
-    background-color:blue;
-    color:white;
-    border:1px solid blue;
-    border-radius:5%;
-    
-}
-.signin-button:hover{
-    background-color:white;
-    color:blue;
-
-}
-
-
-.forget-button{
-    position:absolute;
-    top:85%;
-    left:53%;
-    width:100px;
-    height:40px;
-    background-color:blue;
-    color:white;
-    border:1px solid blue;
-    border-radius:5%;
-
-
-}
-.forget-button:hover{
-    background-color:white;
-    color:blue;
-
+@media only screen and (max-width: 398px){
+    .main{
+        width: 100%;
+    }
 }
