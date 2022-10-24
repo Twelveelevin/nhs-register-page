@@ -1,0 +1,145 @@
+
+body{
+    height:100%;
+}
+
+
+
+
+
+.main{
+    height:600px;
+    width: 300px;
+    background-color:white;
+    color: blue;
+    border: 5px solid blue;
+    border-radius: 25px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.mini-screen{
+    height:450px;
+    width:250px; 
+    background-color:rgb(216, 212, 212);   
+    position:relative;
+    left:50%;
+    top:45%; 
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.nhs{
+    font-family:san sans-serif;
+    position:relative;
+    top: 50px;
+    text-align:center;
+    font-size:25px;
+
+}
+
+.family{
+    margin-top:60px;
+    text-align:center;
+
+}
+
+.mantra{
+    text-align:center;
+    position:relative;
+    bottom:10px;
+    font-size:14px;
+}
+
+.form{
+    text-align:center;
+    
+}
+
+input{
+    width:80%;
+}
+
+
+.sub-menu ul{
+    display: inline-flex;
+    list-style:none;
+   
+
+}
+
+.sub-menu ul li{
+    position:relative;
+    padding:5px;
+    margin: auto 15px auto 15px;
+    
+}
+
+.sub-menu ul li a{
+    text-decoration:none;
+    color:blue;
+    font-size:14px;
+}
+
+.sub-menu ul li a:hover{
+    color:white;
+
+}
+.login-button{
+    position:absolute;
+    top:73%;
+    left:35%;
+    width:70px;
+    height:30px;
+    background-color:blue;
+    color:white;
+    border:1px solid blue;
+    border-radius:5%;
+}
+.login-button:hover{
+    background-color:white;
+    color:blue;
+
+}
+    
+.signin-button{
+    position:absolute;
+    top:87%;
+    right:65%;
+    width:70px;
+    height:30px;
+    background-color:blue;
+    color:white;
+    border:1px solid blue;
+    border-radius:5%;
+    
+}
+.signin-button:hover{
+    background-color:white;
+    color:blue;
+
+}
+
+
+.forget-button{
+    position:absolute;
+    top:85%;
+    left:53%;
+    width:100px;
+    height:40px;
+    background-color:blue;
+    color:white;
+    border:1px solid blue;
+    border-radius:5%;
+
+
+}
+.forget-button:hover{
+    background-color:white;
+    color:blue;
+
+}
